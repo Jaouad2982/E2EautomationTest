@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T14:53:34 EDT" name="Default suite" finished-at="2022-03-21T14:53:38 EDT" duration-ms="3895">
+    <groups>
+    </groups>
+    <test started-at="2022-03-21T14:53:34 EDT" name="Default test" finished-at="2022-03-21T14:53:38 EDT" duration-ms="3895">
+      <class name="com.auto.LoginTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.auto.LoginTest@cdb2d95]" started-at="2022-03-21T14:53:34 EDT" name="shouldAnswerWithTrue" finished-at="2022-03-21T14:53:38 EDT" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- com.auto.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

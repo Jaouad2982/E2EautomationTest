@@ -8,14 +8,15 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import resources.Constant;
 
-public class BaseClass extends PropInializer {
+public class BaseClass extends PropInitializer {
 	
 	public static WebDriver driver;
-	Properties prop = PropInializer.prop;
+	public static Properties prop = PropInitializer.returnProp(new Constant().returnVariable());
 	public static WebDriver driverInializer() {
 		
-		switch(PropInializer.returnValuefromProp("browser")){
+		switch(PropInitializer.returnValuefromProp("browser")){
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
